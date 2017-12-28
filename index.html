@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/page2.css">
+		<script type="text/javascript" scr="js/page2.js" ></script>
+		<script src="js/jquery-3.2.0.min.js"></script>
+		<script type="text/javascript">
+				function changeImg26()
+				{
+					document.getElementById("img26");
+					var a = document.getElementById("img26");
+					a.style.display = "block" ;
+				}
+		</script>
+		<<script>
+			$(document).ready(function(){
+		       	setTimeout(function(){
+		         $("#inner").animate({bottom:'-100%'},2000,function(){
+		         });//2秒划下
+		       	},8200); 
+		       	setTimeout(function(){
+		       		$("#inner").animate({bottom:'-200%'},2000);
+		       	},12000);
+		       	setTimeout(function(){
+		       		$("#inner").animate({bottom:'-300%'},2000);
+		       	},16400);
+		       	setTimeout(function(){
+		       		p=0;
+					q=0;
+					r=0;
+					t=0;
+					setInterval("refer1()",10);
+					setInterval("refer2()",10);
+					setInterval("refer3()",10);
+					setInterval("refer4()",10);
+		       	},17000);
+		       	setTimeout(function(){
+		       		$("#inner").animate({bottom:'-400%'},2000);
+		       	},22000);//共22秒
+			       });
+			function refer1()
+			{
+				if(t>155)
+				{
+					return;
+				}
+				document.getElementById("sp_1").innerHTML=t;
+				
+				t++;
+			}
+			
+			function refer2()
+			{
+				if(p>277)
+				{
+					return;
+				}
+				document.getElementById("sp_2").innerHTML=p;
+				
+				p=p+2;
+			}
+			
+			function refer3()
+			{
+				if(q>1201)
+				{
+					return;
+				}
+				document.getElementById("sp_3").innerHTML=q;
+				
+				q=q+6;
+			}
+			
+			function refer4()
+			{
+				if(r>10001)
+				{
+					return;
+				}
+				document.getElementById("sp_4").innerHTML=r;
+				
+				r=r+50;
+			}
+		</script>
+	</head>
+	<body >
+		<div id="outer" >
+			<div id="inner" style="background: url(img/h56.png); "> 
+				<img  id="imgh54" src="img/蛋糕小图.png">
+				 <div id="surface">
+					<div id="div1" >
+	 					<div id="d11">
+	 						<div id="d110"><img id="img27" src="img/27.png" onclick="changeImg26()" /></div>
+	 						<div id="d111">
+	 							<div style="height: 50px "><img id="img26" src="img/26.png" style="display: none; " /></div>
+	 							<p><img id="img25" src="img/25.png" /></p>
+	 						</div>
+	 					</div>
+	 					<div id="d12">
+	 						<p><img id="img24" src="img/24.png" /></p>
+	 					</div>
+	 				</div>
+	 				<div id="div2" >
+	 					<div id="d21">
+	 						<img id="img23" src="img/23.png" />
+	 						<div style="position:relative;">
+								<span id="sp_1"></span>
+		 						<br> <span id="sp_2"></span>
+								<br> <span id="sp_3"></span>
+								<br> <span id="sp_4"></span>
+		 						<br> <img id="imgw1" src="img/文1.png" />
+	 						</div>
+	 					</div>
+	 					<div id="d22">
+	 						<img id="img21" src="img/21.png" />
+	 						<img id="img22" src="img/22.png" />
+	 					</div>
+	 					
+	 					<div id="d23">
+	 						<img id="img20" src="img/20.png" />
+	 					</div>
+	 				</div>
+	 				<div id="div3" >
+	 					<div id="d31" >
+	 						<div id="d311">
+	 							<img id="img19" src="img/19.png" />
+	 							<img id="img17" src="img/17.png" />
+	 						</div>
+	 						<div id="d312">
+	 							<img id="imgw2" src="img/文2.png" />
+	 							<div id="d313">
+	 								<img id="img18" src="img/18.png" />
+	 								<img id="img15" src="img/15.png" />
+	 								<img id="img16" src="img/16.png" />
+	 							</div>
+	 						</div>
+	 					</div>
+	 					<div id="d32">
+	 						<img id="img14" src="img/14.png" />
+	 					</div>
+	 					<div id="d33">
+	 						<img id="img12" src="img/12.png" />
+	 						<img id="img13" src="img/13.png" />
+	 						<br />
+	 						<img id="img11" src="img/11.png" />
+	 					</div>
+	 				</div>
+	 				<div id="div4">
+	 					<div id="d41">
+	 						<div id="d411">
+	 							<img id="img7" src="img/7.png" />
+	 							<img id="img6" src="img/6.png" />
+	 							<img id="img9" src="img/9.png" />
+	 						</div>
+	 						<div id="d412">
+	 							<img id="imgw3" src="img/文3.png" />
+	 						</div>
+	 						<div id="d413">
+	 							<img id="img8" src="img/8.png" />
+	 							<img id="img10" src="img/10.png" />
+	 						</div>
+	 					</div>
+	 					<div id="d42">
+	 						<img id="img5" src="img/5.png" />
+	 						<img id="img4" src="img/4.png" />
+	 					</div>
+	 				</div>
+	 				<div id="div5">
+	 					<div id="d51">
+	 						<img id="imgw4" src="img/文4.png" />
+	 					</div>
+	 					<div id="d52">
+	 						<img id="img3" src="img/3.png" />
+	 					</div>
+	 					<div id="d53">
+	 						<img id="img1" src="img/1.png" />
+	 						<img id="img2" src="img/2.png" />
+	 					</div>
+	 				</div>
+				 </div>
+			</div>
+		</div>
+		<AUDIO SRC="AUDIO/AUDIO.mp3" autoplay style="display: none; "></AUDIO>
+	</body>
+</html>
