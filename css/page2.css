@@ -49,7 +49,7 @@ html,body,#outer
 }
 #d110
 {
-	padding-top: 20%;
+	padding-top: 10%;
 	float: left;
 	display: inline-block;
 	width: 20%;
@@ -69,7 +69,7 @@ html,body,#outer
 }
 #d111
 {
-	padding-top: 25%;
+	padding-top: 20%;
 	display: inline-block;
 	width: 20%;
 	height: 20%;
@@ -94,7 +94,7 @@ html,body,#outer
 #d12
 {
 	width: 100%;
-	margin-top:75%;
+	margin-top:60%;
 	text-align: center;
 }
 #img24
@@ -108,7 +108,7 @@ html,body,#outer
 
 #d21
 {
-	margin-top:20%; 
+	margin-top:13%; 
 	position: relative;
 	width: 100% ;
 	height: 50%;
@@ -175,7 +175,7 @@ html,body,#outer
 {
 	width: 100%;
 	position: relative;
-	margin-top: -10%; 
+	margin-top: -15%; 
 }
 #img21
 {
@@ -201,7 +201,7 @@ html,body,#outer
 #d23
 {
 	text-align: center;
-	margin-top: 23%; 
+	margin-top: 15%; 
 }
 #img20
 {
@@ -216,7 +216,7 @@ html,body,#outer
 	width:100%;
 	margin: auto;
 	text-align: center;
-	margin-top: 30%;
+	margin-top: 20%;
 	position: relative;
 }
 #d31 div
@@ -245,8 +245,8 @@ html,body,#outer
 }
 #imgw2
 {
-	width: 100%;
-	height: 120%;
+	width: 105%;
+	height: 150%;
 	position: relative;
 }
 #d313
@@ -260,7 +260,7 @@ html,body,#outer
 {
 	height: 100px;
 	position: relative;
-	left: -40%;
+	left: -30%;
 	top: -300px;
 }
 #img15
@@ -282,7 +282,7 @@ html,body,#outer
 	width: 100%;
 	margin: auto;
 	position: relative;
-	top: -20%;
+	top: -15%;
 }
 #img14
 {
@@ -294,7 +294,7 @@ html,body,#outer
 #d33
 {
 	width:100%;
-	height: 20%;
+	height: 10%;
 	text-align: right;
 }
 #img12
@@ -332,7 +332,6 @@ html,body,#outer
 	position: relative;
 	margin: auto;
 	width: 100%;
-	margin-top:10%;
 }
 #d41 div
 {
@@ -406,7 +405,7 @@ html,body,#outer
 }
 #d42
 {
-	margin-top: 50%;
+	margin-top: 40%;
 	text-align: center;
 }
 #img5
@@ -440,7 +439,6 @@ html,body,#outer
 }
 #d51
 {
-	padding-top:100px ;
 	height: 500px;
 }
 #imgw4
@@ -472,7 +470,7 @@ html,body,#outer
 
 #d53
 {
-	margin-top:25%;
+	margin-top:15%;
 	width: 100%;
 	position:relative;
 }
