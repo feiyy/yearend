@@ -3,15 +3,15 @@
 	margin: 0px;
 	padding: 0px;
 }
-html,body,#outer
+/* html,body,#outer
 {
 	height: 100%;
 	width: 100%;
-} 
+}  */
 #outer
 {
 	position: relative;
-}
+} 
 #inner
 {
 	position: absolute;
@@ -20,6 +20,62 @@ html,body,#outer
 	width: 100%;
 	height: 500%;
 	text-align: center;
+}
+#h1,#h2,#h3,#h4
+{
+	position: absolute;
+}
+#h1
+{
+	top: 0px;
+	left: 25%;
+	animation: h1 2s infinite;
+	animation-delay:1s;
+	-webkit-animation-delay:1s;
+}
+@keyframes h1
+{
+	0%{width: 10%}
+	0%{top: 100px;}
+	0%{left: 30%}
+}
+#h2
+{
+	top: 50px;
+	left: 40%;
+	animation: h2 2s infinite;
+}
+@keyframes h2
+{
+	0%{width: 8%}
+	0%{top: 150px;}
+	0%{left: 45%}
+}
+#h3
+{
+	top: 0px;
+	left: 55%;
+	animation: h3 2s infinite;
+	animation-delay:1s;
+	-webkit-animation-delay:1s;
+}
+@keyframes h3
+{
+	0%{width: 10%}
+	0%{top: 100px;}
+	0%{left: 50%}
+}
+#h4
+{
+	top: 50px;
+	left: 70%;
+	animation: h4 2s infinite;
+}
+@keyframes h4
+{
+	0%{width: 8%}
+	0%{top: 150px;}
+	0%{left: 65%}
 }
 #imgh54
 {
@@ -49,27 +105,25 @@ html,body,#outer
 }
 #d110
 {
-	padding-top: 10%;
+	padding-top: 20%;
 	float: left;
 	display: inline-block;
 	width: 20%;
 }
 #img27
 {
-	width: 120%;
+	width: 150%;
 	height: 100%;
-	margin-left: 20px;
-	animation: img27 2s infinite ;
+	margin-left: 50px;
+	animation: img27 1s infinite ;
 }
 @keyframes img27
 {
-	0%{width: 100%}
-	50%{width: 120%}
-	100%{width: 100%}
+	0%{width: 120%}
 }
 #d111
 {
-	padding-top: 20%;
+	padding-top: 15%;
 	display: inline-block;
 	width: 20%;
 	height: 20%;
@@ -108,7 +162,7 @@ html,body,#outer
 
 #d21
 {
-	margin-top:13%; 
+	margin-top:10%; 
 	position: relative;
 	width: 100% ;
 	height: 50%;
@@ -119,7 +173,7 @@ html,body,#outer
 	font-size: 2.5em;
 	font-weight: 800;
 	position: absolute;
-	top: 220px;
+	top: 250px;
 	left: 32%;
 	z-index: 1;
 }
@@ -132,21 +186,21 @@ html,body,#outer
 #sp_2
 {
 	position: absolute;
-	top: 280px;
+	top: 300px;
 	left: 47%;
 	font-weight: 800;
 }
 #sp_3
 {
 	position: absolute;
-	top: 320px;
+	top: 350px;
 	left: 24%;
 	font-weight: 800;
 }
 #sp_4
 {
 	position: absolute;
-	top: 380px;
+	top: 400px;
 	left: 22%;
 	font-weight: 800;
 }
@@ -216,7 +270,7 @@ html,body,#outer
 	width:100%;
 	margin: auto;
 	text-align: center;
-	margin-top: 20%;
+	margin-top: 15%;
 	position: relative;
 }
 #d31 div
@@ -294,7 +348,6 @@ html,body,#outer
 #d33
 {
 	width:100%;
-	height: 10%;
 	text-align: right;
 }
 #img12
@@ -311,25 +364,27 @@ html,body,#outer
 }
 #img11
 {
-	width: 100%;
 	position: relative;
-	top: -330px;
 	animation: img11 2s infinite;
 	animation-iteration-count: 1;
 	animation-delay:12s;
 	-webkit-animation-delay:12s;
+	animation-fill-mode:forwards;
 }
 @keyframes img11
 {
 	0%{width: 15%;}
 	0%{left: 0px;}
 	0%{top: -100px;}
+	100%{top: -330px;}
+	100%{width: 100%;}
 }
 
 
 #d41
 {
 	position: relative;
+	top: -200px;
 	margin: auto;
 	width: 100%;
 }
@@ -405,7 +460,6 @@ html,body,#outer
 }
 #d42
 {
-	margin-top: 40%;
 	text-align: center;
 }
 #img5
@@ -434,7 +488,7 @@ html,body,#outer
 #div5
 {
 	text-align: center;
-	margin-top: 20%; 
+	margin-top: 10%; 
 	position: relative;
 }
 #d51
@@ -443,7 +497,7 @@ html,body,#outer
 }
 #imgw4
 {
-	width: 80%;
+	width: 70%;
 	animation: imgw4 2s infinite;
 	animation-iteration-count: 1;
 	animation-delay:4s;
@@ -451,15 +505,15 @@ html,body,#outer
 }
 @keyframes imgw4
 {
-	0%{width: 70%}
-	50%{width: 80%}
-	100%{width: 70%}
+	0%{width: 60%}
+	50%{width: 70%}
+	100%{width: 60%}
 }
 
 #d52
 {
 	position: relative;
-	top: -50px;
+	top: 5%;
 	height: 40%;
 }
 #img3
@@ -470,7 +524,7 @@ html,body,#outer
 
 #d53
 {
-	margin-top:15%;
+	margin-top:10%;
 	width: 100%;
 	position:relative;
 }

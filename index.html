@@ -11,21 +11,30 @@
 				{
 					document.getElementById("img26");
 					var a = document.getElementById("img26");
+					var h1 = document.getElementById("h1");
+					var h2 = document.getElementById("h2");
+					var h3 = document.getElementById("h3");
+					var h4 = document.getElementById("h4");
+
 					a.style.display = "block" ;
+					h1.style.display = "block" ;
+					h2.style.display = "block" ;
+					h3.style.display = "block" ;
+					h4.style.display = "block" ;
 				}
 		</script>
 		<script>
 			$(document).ready(function(){
 		       	setTimeout(function(){
 		         $("#inner").animate({bottom:'-100%'},2000,function(){
-		         });//2秒划�?
+		         });//2秒划下
 		       	},8200); 
 		       	setTimeout(function(){
 		       		$("#inner").animate({bottom:'-200%'},2000);
 		       	},12000);
 		       	setTimeout(function(){
 		       		$("#inner").animate({bottom:'-300%'},2000);
-		       	},16400);
+		       	},15500);
 		       	setTimeout(function(){
 		       		p=0;
 					q=0;
@@ -38,7 +47,7 @@
 		       	},17000);
 		       	setTimeout(function(){
 		       		$("#inner").animate({bottom:'-400%'},2000);
-		       	},22000);//�?2�?
+		       	},22000);//共22秒
 			       });
 			function refer1()
 			{
@@ -87,13 +96,18 @@
 	<body >
 		<div id="outer">
 			<div id="inner"> 
-				<!-- <img  id="imgh54" src="img/蛋糕小图.png"> -->
 				<img  id="imgh54" src="img/h56.png">
 				 <div id="surface">
 					<div id="div1" >
 	 					<div id="d11">
 	 						<div id="d110"><img id="img27" src="img/27.png" onclick="changeImg26()" /></div>
 	 						<div id="d111">
+	 							<div id="hua1">
+									<img id="h1" src="img/花1.png" style="display:none;">
+									<img id="h2" src="img/花2.png" style="display:none;">
+									<img id="h3" src="img/花3.png" style="display:none;">
+									<img id="h4" src="img/花4.png" style="display:none;">
+	 							</div>
 	 							<div style="height: 50px "><img id="img26" src="img/26.png" style="display: none; " /></div>
 	 							<p><img id="img25" src="img/25.png" /></p>
 	 						</div>
@@ -110,7 +124,7 @@
 		 						<br> <span id="sp_2"></span>
 								<br> <span id="sp_3"></span>
 								<br> <span id="sp_4"></span>
-		 						<br> <img id="imgw1" src="img/�?.png" />
+		 						<br> <img id="imgw1" src="img/文1.png" />
 	 						</div>
 	 					</div>
 	 					<div id="d22">
@@ -129,7 +143,7 @@
 	 							<img id="img17" src="img/17.png" />
 	 						</div>
 	 						<div id="d312">
-	 							<img id="imgw2" src="img/�?.png" />
+	 							<img id="imgw2" src="img/文2.png" />
 	 							<div id="d313">
 	 								<img id="img18" src="img/18.png" />
 	 								<img id="img15" src="img/15.png" />
@@ -155,7 +169,7 @@
 	 							<img id="img9" src="img/9.png" />
 	 						</div>
 	 						<div id="d412">
-	 							<img id="imgw3" src="img/�?.png" />
+	 							<img id="imgw3" src="img/文3.png" />
 	 						</div>
 	 						<div id="d413">
 	 							<img id="img8" src="img/8.png" />
@@ -169,7 +183,7 @@
 	 				</div>
 	 				<div id="div5">
 	 					<div id="d51">
-	 						<img id="imgw4" src="img/�?.png" />
+	 						<img id="imgw4" src="img/文4.png" />
 	 					</div>
 	 					<div id="d52">
 	 						<img id="img3" src="img/3.png" />
@@ -182,5 +196,6 @@
 				 </div>
 			</div>
 		</div>
-			</body>
+		<AUDIO SRC="AUDIO/AUDIO.mp3" autoplay style="display: none; "></AUDIO>
+	</body>
 </html>
