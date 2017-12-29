@@ -36,61 +36,9 @@
 		       		$("#inner").animate({bottom:'-315%'},2000);
 		       	},30000);
 		       	setTimeout(function(){
-		       		p=0;
-					q=0;
-					r=0;
-					t=0;
-					setInterval("refer1()",10);
-					setInterval("refer2()",10);
-					setInterval("refer3()",10);
-					setInterval("refer4()",10);
-		       	},31000);
-		       	setTimeout(function(){
 		       		$("#inner").animate({bottom:'-400%'},2000);
 		       	},40000);//共22秒
 			       });
-			function refer1()
-			{
-				if(t>155)
-				{
-					return;
-				}
-				document.getElementById("sp_1").innerHTML=t;
-				
-				t++;
-			}
-			
-			function refer2()
-			{
-				if(p>277)
-				{
-					return;
-				}
-				document.getElementById("sp_2").innerHTML=p;
-				
-				p=p+2;
-			}
-			
-			function refer3()
-			{
-				if(q>1201)
-				{
-					return;
-				}
-				document.getElementById("sp_3").innerHTML=q;
-				
-				q=q+6;
-			}
-			
-			function refer4()
-			{
-				if(r>10001)
-				{
-					return;
-				}
-				document.getElementById("sp_4").innerHTML=r;
-				r=r+50;
-			}
 		</script>
 	</head>
 	<body >
@@ -120,10 +68,6 @@
 	 					<div id="d21">
 	 						<img id="img23" src="img/23.png" />
 	 						<div style="position:relative;">
-								<span id="sp_1"></span>
-		 						<br> <span id="sp_2"></span>
-								<br> <span id="sp_3"></span>
-								<br> <span id="sp_4"></span>
 		 						<br> <img id="imgw1" src="img/文1.png" />
 	 						</div>
 	 					</div>
